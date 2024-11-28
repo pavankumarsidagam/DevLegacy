@@ -1,0 +1,3 @@
+Side Bar & Hovering Effect 
+    - max-h-40 overflow-y-hidden hover:overflow-y-auto hover:h-40
+

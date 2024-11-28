@@ -6,6 +6,7 @@ import EducationCard from './components/EducationCard';
 import CvCard from './components/CvCard';
 import ProjectsCard from './components/ProjectsCard';
 import GetInTouchCard from './components/GetInTouchCard';
+import ContactUsCard from './components/ContactUsCard';
 
 function App() {
   const [currentTime, setCurrentTime] = useState('');
@@ -36,9 +37,9 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex items-center justify-center bg-gray-200">
       {loading ? (
-        <div className="loader-container bg-gray-100">
+        <div className="loader-container bg-gray-200">
           <div className="loader"></div>
         </div>
       ) : (
@@ -48,6 +49,20 @@ function App() {
           <AboutCard />
           <EducationCard />
           <ProjectsCard />
+          <div className="card bg-white rounded-lg p-6">
+            <h4 className="font-bold border-b-2 mb-2 border-gray-300 text-sm card-content-syne" >Time India</h4>
+            <p className="text-sm text-gray-600 card-time">{currentTime}</p>
+          </div>
+          <ContactUsCard />
+          <GetInTouchCard />
+          <div className="card bg-white rounded-lg p-6 row-span-1 md:row-span-2">
+            <h4 className="font-bold card-content border-b-2 mb-2 border-gray-300" >Years of Experience</h4>
+            <p className="text-center text-6xl font-bold card-time md:mt-8 sm:mt-3">1</p>
+          </div>
+          <CvCard/>
+          <div className="card bg-white rounded-lg col-span-1 md:col-span-2">
+            <img src='/dino.png' className='rounded-lg'></img>
+          </div>
 
           {/* <div className="card bg-white rounded-lg p-6 col-span-1 md:col-span-2">
             <h1 className="text-4xl font-bold card-content">
@@ -74,39 +89,31 @@ function App() {
             <p className="text-sm font-bold card-time">{currentTime}</p>
           </div> */}
 
-          <div className="card bg-white rounded-lg p-6">
-            <h4 className="font-bold border-b-2 mb-2 border-gray-300 text-sm card-content-syne" >Time India</h4>
-            <p className="text-sm text-gray-500 card-time">{currentTime}</p>
-          </div>
-          <div className="card bg-white rounded-lg p-7 text-center">
+          
+          {/* <div className="card bg-white rounded-lg p-7 text-center">
             <p className="text-sm font-bold card-time">{currentTime}</p>
-          </div>
+          </div> */}
 
           {/* <div className="card bg-white rounded-lg p-6 col-span-1 md:col-span-2">
             <h4 className="font-bold card-content border-b-2 mb-2 border-gray-300" >Get In Touch</h4>
             <p className="text-sm text-gray-500 card-time">{currentTime}</p>
           </div> */}
-          <GetInTouchCard />
 
 
-          <div className="card bg-white rounded-lg p-6 row-span-1 md:row-span-2">
-            <h4 className="font-bold card-content border-b-2 mb-2 border-gray-300" >Years of Experience</h4>
-            <p className="text-center text-6xl font-bold card-time">1</p>
-          </div>
+          
 
           {/* <div className="card bg-white rounded-lg p-6 row-span-1 md:row-span-2">
             <h4 className="font-bold card-content border-b-2 mb-2 border-gray-300" >CV</h4>
             <p className="text-sm text-gray-500 card-time">{currentTime}</p>
           </div> */}
 
-          <CvCard/>
           
-          <div className="card bg-white rounded-lg p-7 text-center">
+          {/* <div className="card bg-white rounded-lg p-7 text-center">
             <p className="text-sm font-bold card-time">{currentTime}</p>
           </div>
           <div className="card bg-white rounded-lg p-7 text-center">
             <p className="text-sm font-bold card-time">{currentTime}</p>
-          </div>
+          </div> */}
          
           
 

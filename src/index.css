@@ -11,6 +11,12 @@
   transform: scale(1.05);
 }
 
+@media (max-width: 768px) { 
+  .card:hover {
+    transform: none; 
+  }
+}
+
 .card-content {
   font-family: 'Cormorant Garamond', serif;
 }
@@ -23,13 +29,13 @@
   font-style: normal;
 }
 
-/* Fade-in Transition for Content */
+
+/*  */
 .fade-in {
   opacity: 0;
   animation: fadeIn 1s ease-in-out forwards;
 }
 
-/* Keyframe Animation for Fade-In Effect */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -38,6 +44,8 @@
     opacity: 1;
   }
 }
+
+/*  */
 
 /* Loader Container */
 .loader-container {

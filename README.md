@@ -44,7 +44,7 @@ To run the project locally:
    git clone [https://github.com/your-username/heytechie.git](https://github.com/pavankumarsidagam/DevLegacy.git)
 2. **Navigate to the project directory**
    ```bash
-   cd heytechie
+   cd DevLegacy
 3. **Install dependencies**
    ```bash
    cd npm install

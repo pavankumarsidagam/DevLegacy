@@ -9,13 +9,13 @@ const EducationCard = () => {
             <div className="text-sm card-content-syne max-h-60 overflow-y-hidden hover:overflow-y-auto">
                 <div className="flex flex-col pb-2">
                 <span className={textColor}>Software Developer</span>
-                <span className={textColor}>Jan 2024 - Present</span>
-                <span className='text-gray-400 text-xs'>Quickly mastered ColdFusion and contributed to major projects, enhancing team performance and project delivery. Collaborated with international clients and internal teams to drive successful integrations, with notable recognition for exceptional contributions to the GME Budget Project.</span>
+                <span className={textColor}>Jan 2024 - Jul 2025</span>
+                <span className='text-gray-400 text-xs'>Quickly mastered ColdFusion and contributed to major projects, enhancing team performance and project delivery. Collaborated with international clients and internal teams to drive successful integrations, with notable recognition for exceptional contributions to the Ford projects.</span>
                 </div>
 
                 <div className="flex flex-col pb-2">
                 <span className={textColor}>Junior Software Developer</span>
-                <span className={textColor}>Oct 2023 - Jan 2024</span>
+                <span className={textColor}>Aug 2023 - Jan 2024</span>
                 <span className='text-gray-400 text-xs'>Developed key projects like an Admin Portal and Invoice Management System, gaining hands-on experience in web technologies. Strengthened communication skills through presentations and gained a comprehensive understanding of the project lifecycle.</span>
                 </div>
 

@@ -57,7 +57,7 @@ function App() {
           <GetInTouchCard />
           <div className="card bg-white rounded-lg p-6 row-span-1 md:row-span-2">
             <h4 className="font-bold card-content border-b-2 mb-2 border-gray-300" >Years of Experience</h4>
-            <p className="text-center text-6xl font-bold card-time md:mt-8 sm:mt-3">1</p>
+            <p className="text-center text-6xl font-bold card-time md:mt-8 sm:mt-3">2</p>
           </div>
           <CvCard/>
           <div className="card bg-white rounded-lg col-span-1 md:col-span-2">
